@@ -1,6 +1,7 @@
-// The read-only Spaces panel (UI_AS_APPS_SPEC Phase 03 pilot; design surface 07).
+// The read-only Spaces panel (UI_AS_APPS_SPEC §5.2 — spaces management, the
+// read-only/baseline `listSpaces` half; FILE_SHARING_SPEC §9.7 share surface).
 // Lists the spaces the user has granted TO THIS APP — never their full space
-// list. That app-scoping is enforced host-side (Phase 01); calling
+// list. That app-scoping is enforced host-side; calling
 // `listSpaces({ app: true })` requests exactly that scoped view.
 import { useEffect, useMemo, useState } from 'react';
 import { listSpaces, type SpaceInfo } from '@immediately-run/sdk/mounts';
