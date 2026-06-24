@@ -1,3 +1,11 @@
+> **Superseded by space-manager (FILE_SHARING §9.7, SPACES_UI_SPEC §2). Archived — do not extend.**
+>
+> This read-only pilot is retired. Seeing your *open* spaces is now the
+> file-explorer's job (mounted spaces, FILE_EXPLORER §2); seeing and managing
+> *all* your spaces is `immediately-run/space-manager` (the `panel.spaces` region
+> binding and the deep-linkable full-tab `/spaces` surface, SPACES_UI_SPEC §5).
+> This repo is kept for history only — no registry binding points at it.
+
 # immediately.run — Spaces panel (read-only)
 
 A first-party immediately.run **system app**: the read-only Spaces panel
